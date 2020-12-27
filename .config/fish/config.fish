@@ -3,7 +3,7 @@ alias ls 'ls -aG'
 # ghq alias
 alias ghqcd 'cd (ghq list --exact --full-path (ghq list | fzf))'
 # git alias
-alias gitbd 'git branch --merged|egrep -v "\*|develop|master"|xargs git branch -d'
+alias gitbd 'git branch --merged|egrep -v "\*|develop|master|main"|xargs git branch -d'
 alias gitswitch 'git switch (git branch | sed s/\*//g | sed "s/ //g" | fzf)'
 alias gitbranchdelete 'git branch -D (git branch | sed s/\*//g | sed "s/ //g" | fzf)'
 
