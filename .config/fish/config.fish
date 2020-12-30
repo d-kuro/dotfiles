@@ -9,8 +9,7 @@ alias gitbranchd 'git branch -D (git branch | sed s/\*//g | sed "s/ //g" | fzf)'
 # PATH
 set -x PATH /usr/local $PATH
 set -x PATH /usr/local/bin $PATH
-set -x PATH ~/bin $PATH
-set -gx PATH $PATH $HOME/.krew/bin
+set -x PATH $HOME/bin $PATH
 
 # Go
 set -x GOPATH $HOME/go
@@ -18,5 +17,8 @@ set -x PATH $GOPATH/bin $PATH
 
 # Rust
 set -x PATH $HOME/.cargo/bin $PATH
+
+# Krew
+set -x PATH $PATH $HOME/.krew/bin
 
 starship init fish | source
