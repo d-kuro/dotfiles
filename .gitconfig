@@ -1,0 +1,9 @@
+[user]
+	email = kurosawa7620@gmail.com
+	name = d-kuro
+[credential]
+	helper = osxkeychain
+[ghq]
+	root = ~/ghq
+[includeIf "gitdir:~/ghq/github.com/zlabjp/"]
+  path = ~/.gitconfig-zlab
