@@ -6,4 +6,4 @@
 [ghq]
 	root = ~/ghq
 [includeIf "gitdir:~/ghq/github.com/zlabjp/"]
-  path = ~/.gitconfig-zlab
+	path = ~/.gitconfig-zlab
