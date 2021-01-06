@@ -11,6 +11,9 @@ set -x PATH /usr/local $PATH
 set -x PATH /usr/local/bin $PATH
 set -x PATH $HOME/bin $PATH
 
+# Telling Git about your signing key
+set -x GPG_TTY (tty)
+
 # Go
 set -x GOPATH $HOME/go
 set -x PATH $GOPATH/bin $PATH
