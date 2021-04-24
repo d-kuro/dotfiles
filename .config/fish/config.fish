@@ -1,8 +1,8 @@
+# Alias
 alias ls 'ls -aG'
 alias grep 'grep --color=auto'
-# ghq alias
+alias desktop 'cd ~/Desktop'
 alias ghqcd 'cd (ghq list --exact --full-path (ghq list | fzf))'
-# git alias
 alias gitswitch 'git switch (git branch --format "%(refname:short)" | fzf)'
 alias gitbranchd 'git branch -D (git branch --format "%(refname:short)" | fzf)'
 
