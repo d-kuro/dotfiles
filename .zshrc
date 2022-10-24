@@ -148,6 +148,8 @@ export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$HOME/.cargo/bin
 # Krew
 export PATH=$PATH:$HOME/.krew/bin
+# 1Password
+export SSH_AUTH_SOCK=~/.1password/agent.sock
 
 # ---------------
 # Enable kubectl completion
