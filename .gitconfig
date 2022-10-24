@@ -1,17 +1,13 @@
 [user]
 	email = kurosawa7620@gmail.com
 	name = d-kuro
-	signingkey = F0661D9B72DE3C5F
-[credential]
-	helper = osxkeychain
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPEf5FwWMwRY+k/uUrA446rfYCuJv4TBteWYeBjDzILa
 [gpg]
-	program = gpg
+	format = ssh
 [commit]
 	gpgsign = true
 [ghq]
 	root = ~/ghq
-[includeIf "gitdir:~/ghq/github.com/zlabjp/"]
-	path = ~/.gitconfig-zlab
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
