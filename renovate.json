@@ -8,7 +8,7 @@
   "dependencyDashboard": true,
   "packageRules": [
     {
-      "matchPackageNames":["aquaproj/aqua-registry"],
+      "matchPackageNames":[""],
       "automerge": true
     }
   ]
