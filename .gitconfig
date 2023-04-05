@@ -1,19 +1,19 @@
 [user]
-	email = kurosawa7620@gmail.com
-	name = d-kuro
+	email      = kurosawa7620@gmail.com
+	name       = d-kuro
 	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPEf5FwWMwRY+k/uUrA446rfYCuJv4TBteWYeBjDzILa
 [gpg]
-	format = ssh
+	format     = ssh
 [commit]
-	gpgsign = true
+	gpgsign    = true
 [ghq]
-	root = ~/ghq
+	root       = ~/ghq
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+	clean      = git-lfs clean -- %f
+	smudge     = git-lfs smudge -- %f
+	process    = git-lfs filter-process
+	required   = true
 [url "git@github.com:"]
-	insteadOf = https://github.com/
+	insteadOf  = https://github.com/
 [includeIf "gitdir:~/ghq/github.com/zlabjp/"]
-	path = ~/.gitconfig-zlab
+	path       = ~/.gitconfig-zlab
