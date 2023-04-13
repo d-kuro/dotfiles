@@ -165,7 +165,4 @@ source <(kubectl completion zsh)
 eval "$(starship init zsh)"
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/dkurosaw/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/dkurosaw/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/dkurosaw/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/dkurosaw/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f "$HOME/google-cloud-sdk/path.zsh.inc" ]; then . "$HOME/google-cloud-sdk/path.zsh.inc"; fi
