@@ -18,8 +18,19 @@ setopt hist_ignore_dups
 setopt hist_ignore_all_dups
 setopt auto_pushd
 setopt auto_cd
+setopt auto_list
+setopt auto_menu
+setopt list_types
+setopt nobeep
+setopt prompt_subst
+setopt magic_equal_subst
+setopt auto_param_keys
+setopt auto_param_slash
+setopt correct
 autoload -Uz compinit
 compinit
+zstyle ':completion:*:default' menu select=1
+zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 
 # ---------------
 # PATH
