@@ -31,6 +31,6 @@ packages:
 - name: docker/cli@v23.0.3
 - name: abiosoft/colima@v0.6.6
 - name: google/yamlfmt@v0.10.0
-- name: grafana/k6@v0.47.0
+- name: grafana/k6@v0.48.0
 - name: rhysd/actionlint@v1.6.26
 - name: mrtazz/checkmake@0.2.2
