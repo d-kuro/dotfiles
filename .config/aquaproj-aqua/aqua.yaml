@@ -22,7 +22,7 @@ packages:
 - name: helmfile/helmfile@v0.159.0
 - name: hashicorp/terraform@v1.6.5
 - name: kubernetes-sigs/kustomize@kustomize/v5.2.1
-- name: derailed/k9s@v0.28.2
+- name: derailed/k9s@v0.29.0
 - name: BurntSushi/ripgrep@14.0.3
 - name: sharkdp/fd@v8.7.1
 - name: kubernetes-sigs/kind@v0.20.0
