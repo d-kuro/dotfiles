@@ -32,5 +32,5 @@ packages:
 - name: abiosoft/colima@v0.6.8
 - name: google/yamlfmt@v0.11.0
 - name: grafana/k6@v0.49.0
-- name: rhysd/actionlint@v1.6.26
+- name: rhysd/actionlint@v1.6.27
 - name: mrtazz/checkmake@0.2.2
