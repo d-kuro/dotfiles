@@ -27,7 +27,7 @@ packages:
 - name: sharkdp/fd@v9.0.0
 - name: kubernetes-sigs/kind@v0.22.0
 - name: koalaman/shellcheck@v0.10.0
-- name: lima-vm/lima@v0.20.1
+- name: lima-vm/lima@v0.20.2
 - name: docker/cli@v23.0.3
 - name: abiosoft/colima@v0.6.8
 - name: google/yamlfmt@v0.11.0
