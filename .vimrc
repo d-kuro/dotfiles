@@ -8,7 +8,7 @@ set number
 set cursorline
 set cursorcolumn
 set virtualedit=onemore
-set smartindent
+set autoindent
 set showmatch
 set backspace=indent,eol,start
 
