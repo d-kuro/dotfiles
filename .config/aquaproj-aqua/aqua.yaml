@@ -20,7 +20,7 @@ packages:
 - name: helm/helm@v3.14.3
 - name: helmfile/helmfile@v0.163.1
 - name: hashicorp/terraform@v1.7.5
-- name: kubernetes-sigs/kustomize@kustomize/v5.3.0
+- name: kubernetes-sigs/kustomize@kustomize/v5.4.1
 - name: BurntSushi/ripgrep@14.1.0
 - name: sharkdp/fd@v9.0.0
 - name: kubernetes-sigs/kind@v0.22.0
