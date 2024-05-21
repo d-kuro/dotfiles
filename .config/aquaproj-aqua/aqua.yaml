@@ -30,5 +30,4 @@ packages:
 - name: rhysd/actionlint@v1.7.0
 - name: mrtazz/checkmake@0.2.2
 - name: eza-community/eza@v0.18.16
-- name: rossmacarthur/sheldon@0.7.4
 - name: starship/starship@v1.19.0
