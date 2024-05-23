@@ -1,0 +1,5 @@
+.config/*
+!.config/aquaproj-aqua
+!.config/sheldon
+!.config/wezterm
+!.config/starship.toml
