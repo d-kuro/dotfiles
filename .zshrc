@@ -25,8 +25,8 @@ setopt magic_equal_subst
 setopt auto_param_slash
 autoload -Uz compinit
 compinit
-zstyle ':completion:*:default' menu select=1
-zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+zstyle ':completion:*:descriptions' format '[%d]'
 
 # ---------------
 # PATH
