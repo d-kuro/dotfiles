@@ -6,6 +6,7 @@ alias gitswitch='git switch $(git branch --format "%(refname:short)" | fzf)'
 alias gitbranchd='git branch -D $(git branch --format "%(refname:short)" | fzf)'
 alias la="eza -a --git -g -h --oneline"
 alias ls="eza"
+alias vim="nvim"
 
 # ---------------
 # Config
