@@ -31,6 +31,6 @@ packages:
 - name: mrtazz/checkmake@0.2.2
 - name: eza-community/eza@v0.19.1
 - name: starship/starship@v1.20.1
-- name: twistedpair/google-cloud-sdk@490.0.0
+- name: twistedpair/google-cloud-sdk@491.0.0
 - name: jqlang/jq@jq-1.7.1
 - name: neovim/neovim@v0.10.1
