@@ -33,4 +33,4 @@ packages:
 - name: starship/starship@v1.20.1
 - name: twistedpair/google-cloud-sdk@495.0.0
 - name: jqlang/jq@jq-1.7.1
-- name: neovim/neovim@v0.10.1
+- name: neovim/neovim@v0.10.2
