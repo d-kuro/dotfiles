@@ -34,3 +34,4 @@ packages:
 - name: twistedpair/google-cloud-sdk@496.0.0
 - name: jqlang/jq@jq-1.7.1
 - name: neovim/neovim@v0.10.2
+- name: aquasecurity/trivy@v0.54.1
