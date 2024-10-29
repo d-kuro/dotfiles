@@ -57,6 +57,11 @@ zle -N fzf-select-history
 bindkey '^r' fzf-select-history
 
 # ---------------
+# Brew
+# ---------------
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# ---------------
 # Enable kubectl completion
 # ---------------
 source <(kubectl completion zsh)
