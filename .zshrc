@@ -40,6 +40,9 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 # Rust
 export PATH=$PATH:$HOME/.cargo/bin
+# Node
+export NPM_CONFIG_PREFIX=${HOME}/.npm-global
+export PATH=$NPM_CONFIG_PREFIX/bin:$PATH
 # Krew
 export PATH=$PATH:$HOME/.krew/bin
 # 1Password
