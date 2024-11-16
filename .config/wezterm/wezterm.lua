@@ -4,7 +4,7 @@ return {
   color_scheme         = "OneDark (base16)",
   font_size            = 10.0,
   font                 = wezterm.font 'UDEV Gothic',
-  colors = {
+  colors               = {
     -- Overrides the cell background color when the current cell is occupied by the
     -- cursor and the cursor style is set to Block
     cursor_bg = '#52ad70',
