@@ -38,4 +38,4 @@ packages:
 - name: rossmacarthur/sheldon@0.8.0
 - name: aws/aws-cli@2.22.2
 - name: mikefarah/yq@v4.44.5
-- name: nodejs/node@v23.2.0
+- name: nodejs/node@v23.3.0
