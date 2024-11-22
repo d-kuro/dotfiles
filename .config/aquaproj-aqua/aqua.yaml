@@ -39,3 +39,4 @@ packages:
 - name: aws/aws-cli@2.22.7
 - name: mikefarah/yq@v4.44.5
 - name: nodejs/node@v23.3.0
+- name: golang.org/x/tools/gopls@v0.16.2
