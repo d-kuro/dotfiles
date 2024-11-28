@@ -19,5 +19,5 @@
 [url "git@github.com:"]
   insteadOf  = https://github.com/
 
-[includeIf "gitdir:~/ghq/git-codecommit.us-east-1.amazonaws.com"]
+[includeIf "gitdir:~/ghq/git-codecommit/"]
   path       = ~/.gitconfig-a

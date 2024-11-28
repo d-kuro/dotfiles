@@ -34,6 +34,7 @@ zstyle ':completion:*:descriptions' format '[%d]'
 # ---------------
 export PATH=$PATH:/usr/local
 export PATH=$PATH:/usr/local/bin
+export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/bin
 # Go
 export GOPATH=$HOME/go
@@ -43,6 +44,8 @@ export PATH=$PATH:$HOME/.cargo/bin
 # Node
 export NPM_CONFIG_PREFIX=${HOME}/.npm-global
 export PATH=$NPM_CONFIG_PREFIX/bin:$PATH
+# Python
+export PATH=$PATH:$HOME/Library/Python/3.9/bin
 # Krew
 export PATH=$PATH:$HOME/.krew/bin
 # 1Password
