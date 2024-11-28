@@ -18,3 +18,6 @@
   required   = true
 [url "git@github.com:"]
   insteadOf  = https://github.com/
+
+[includeIf "gitdir:~/ghq/git-codecommit.us-east-1.amazonaws.com"]
+  path       = ~/.gitconfig-a
