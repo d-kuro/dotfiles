@@ -2,9 +2,9 @@
 # Alias
 # ---------------
 alias ghqcd='cd $(ghq list --exact --full-path $(ghq list | fzf))'
+alias ghqawscd='cd $(ghq list --exact --full-path $(ghq list | grep git-codecommit | fzf))'
 alias gitswitch='git switch $(git branch --format "%(refname:short)" | fzf)'
 alias gitbranchd='git branch -D $(git branch --format "%(refname:short)" | fzf)'
-alias la="eza -a --git -g -h --oneline"
 alias ls="eza"
 alias vim="nvim"
 
