@@ -46,6 +46,7 @@ export NPM_CONFIG_PREFIX=${HOME}/.npm-global
 export PATH=$NPM_CONFIG_PREFIX/bin:$PATH
 # Python
 export PATH=$PATH:$HOME/Library/Python/3.9/bin
+export PATH=$PATH:$HOME/.rye/shims
 # Krew
 export PATH=$PATH:$HOME/.krew/bin
 # 1Password
