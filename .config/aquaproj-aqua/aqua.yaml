@@ -38,5 +38,5 @@ packages:
 - name: rossmacarthur/sheldon@0.8.0
 - name: aws/aws-cli@2.22.21
 - name: mikefarah/yq@v4.44.6
-- name: nodejs/node@v23.4.0
+- name: nodejs/node@v23.5.0
 - name: golang.org/x/tools/gopls@v0.17.0
