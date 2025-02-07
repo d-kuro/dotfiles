@@ -42,3 +42,5 @@ packages:
 - name: golang.org/x/tools/gopls@gopls/v0.17.0
 - name: golang/tools/goimports@v0.28.0
 - name: sachaos/viddy@v1.3.0
+- name: 1password/cli
+  version: "v2.30.3"
