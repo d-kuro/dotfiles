@@ -1,5 +1,6 @@
 shell-integration = zsh
 theme = catppuccin-frappe
+font-size = 10
 font-family = UDEV Gothic
 font-feature = -calt
 font-feature = -dlig

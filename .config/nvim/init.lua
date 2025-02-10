@@ -12,7 +12,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-  "olimorris/onedarkpro.nvim",
+  "catppuccin/nvim",
 })
 
 vim.opt.encoding = "utf-8"
@@ -29,4 +29,4 @@ vim.opt.autoindent = true
 vim.opt.showmatch = true
 vim.opt.backspace = {"indent", "eol", "start"}
 
-vim.cmd("colorscheme onedark")
+vim.cmd("colorscheme catppuccin-frappe")
