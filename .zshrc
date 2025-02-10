@@ -65,6 +65,39 @@ function fzf-select-history() {
 zle -N fzf-select-history
 bindkey '^r' fzf-select-history
 
+function sshfzf() {
+  # OS detection: use -nE for Darwin (macOS) and -nr for Linux
+  local os sedOpts
+  os=$(uname)
+  if [ "$os" = "Darwin" ]; then
+    sedOpts="-nE"
+  else
+    sedOpts="-nr"
+  fi
+
+  # Select a host from ~/.ssh/config via fzf
+  local host
+  host=$(grep -E "^Host " ~/.ssh/config | sed -e 's/Host[ ]*//g' | fzf)
+  if [ -n "$host" ]; then
+    # Extract the configuration block for the selected host
+    local block
+    block=$(awk -v host="$host" '
+      $0 ~ "^Host[ ]+"host"$" {flag=1; next}
+      $0 ~ "^Host " && flag {flag=0}
+      flag {print}
+    ' ~/.ssh/config)
+
+    # Use sed to extract the password from a line like: # Password: 'password'
+    local password
+    password=$(echo "$block" | sed $sedOpts "s/.*# *Password: *'([^']+)'.*/\1/p")
+    if [ -n "$password" ]; then
+      sshpass -p "$password" ssh "$host"
+    else
+      ssh "$host"
+    fi
+  fi
+}
+
 # ---------------
 # Brew
 # ---------------
