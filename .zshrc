@@ -6,6 +6,7 @@ alias ghqawscd='cd $(ghq list --exact --full-path $(ghq list | grep git-codecomm
 alias gitswitch='git switch $(git branch --format "%(refname:short)" | fzf)'
 alias gitbranchd='git branch -D $(git branch --format "%(refname:short)" | fzf)'
 alias ls="eza"
+alias rm="gomi"
 alias vim="nvim"
 
 # ---------------
