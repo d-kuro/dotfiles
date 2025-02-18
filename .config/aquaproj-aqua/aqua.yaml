@@ -45,4 +45,4 @@ packages:
 - name: 1password/cli
   version: "v2.30.3"
 - name: babarot/gomi@v1.4.3
-- name: prometheus/prometheus@v3.1.0
+- name: prometheus/prometheus@v3.2.0
