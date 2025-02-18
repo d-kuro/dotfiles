@@ -44,5 +44,5 @@ packages:
 - name: sachaos/viddy@v1.3.0
 - name: 1password/cli
   version: "v2.30.3"
-- name: babarot/gomi@v1.4.2
+- name: babarot/gomi@v1.4.3
 - name: prometheus/prometheus@v3.1.0
