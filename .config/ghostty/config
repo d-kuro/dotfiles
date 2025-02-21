@@ -1,9 +1,12 @@
 shell-integration = zsh
+term = xterm-256color
 theme = catppuccin-frappe
 font-size = 10
 font-family = UDEV Gothic
 font-feature = -calt
 font-feature = -dlig
-cursor-opacity = 0.7
-cursor-style = block
+font-feature = "-liga"
+cursor-style = block_hollow
 cursor-style-blink = false
+shell-integration-features = no-cursor
+
