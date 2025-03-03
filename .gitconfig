@@ -1,24 +1,46 @@
 [user]
-  email      = kurosawa7620@gmail.com
-  name       = d-kuro
+        email = kurosawa7620@gmail.com
+        name = d-kuro
 [user]
-  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPEf5FwWMwRY+k/uUrA446rfYCuJv4TBteWYeBjDzILa
+        signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPEf5FwWMwRY+k/uUrA446rfYCuJv4TBteWYeBjDzILa
 [gpg]
-  format     = ssh
+        format = ssh
 [gpg "ssh"]
-  program    = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+        program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
 [commit]
-  gpgsign    = true
+        gpgsign = true
+# refs: https://blog.gitbutler.com/how-git-core-devs-configure-git/
+[column]
+        ui = auto
+[branch]
+        sort = -committerdate
+[tag]
+        sort = version:refname
+[init]
+        defaultBranch = main
+[diff]
+        algorithm = histogram
+        colorMoved = plain
+        mnemonicPrefix = true
+        renames = true
+[push]
+        default = simple
+        autoSetupRemote = true
+        followTags = true
+[fetch]
+        prune = true
+        pruneTags = true
+        all = true
+# Additional configuration
 [ghq]
-  root       = ~/ghq
+        root = ~/ghq
 [filter "lfs"]
-  clean      = git-lfs clean -- %f
-  smudge     = git-lfs smudge -- %f
-  process    = git-lfs filter-process
-  required   = true
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true
 [url "git@github.com:"]
-  insteadOf  = https://github.com/
+        insteadOf = https://github.com/
 
 [includeIf "gitdir:~/ghq/aws/"]
-  path       = ~/.gitconfig-aws
-
+  path = ~/.gitconfig-aws
