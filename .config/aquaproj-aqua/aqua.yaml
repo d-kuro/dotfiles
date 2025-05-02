@@ -29,7 +29,7 @@ packages:
 - name: google/yamlfmt@v0.16.0
 - name: rhysd/actionlint@v1.7.7
 - name: mrtazz/checkmake@0.2.2
-- name: eza-community/eza@0.21.2
+- name: eza-community/eza@0.21.3
 - name: starship/starship@v1.23.0
 - name: twistedpair/google-cloud-sdk@520.0.0
 - name: jqlang/jq@jq-1.7.1
