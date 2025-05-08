@@ -28,5 +28,7 @@ vim.opt.virtualedit = "onemore"
 vim.opt.autoindent = true
 vim.opt.showmatch = true
 vim.opt.backspace = {"indent", "eol", "start"}
+vim.opt.listchars = { tab = ">.", space = "_", eol = "$" }
+vim.opt.list = true
 
 vim.cmd("colorscheme catppuccin-frappe")
