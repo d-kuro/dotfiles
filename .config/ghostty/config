@@ -1,12 +1,37 @@
 shell-integration = zsh
-term = xterm-256color
 theme = catppuccin-frappe
 font-size = 10
-font-family = UDEV Gothic
-font-feature = -calt
-font-feature = -dlig
-font-feature = "-liga"
-cursor-style = block_hollow
+
+# カーソルの色変更
+cursor-color = purple
+cursor-opacity = 0.7
+cursor-style = block
 cursor-style-blink = false
+
+# https://github.com/yuru7/udev-gothic
+font-family = UDEV Gothic
+
+# UDEV Gothicではリガチャが有効になってしまうので無効化
+font-feature = -dlig
+
+# shiftやctrlを押しながらでも改行が入力できるように
+keybind = shift+enter=text:\x0a
+keybind = ctrl+enter=text:\x0a
+
+# タイピング中はカーソルを非表示
+mouse-hide-while-typing = true
+
+# titlebarをtab形式に
+macos-titlebar-style = tabs
+
+# シェル連携のカーソル制御を無効化
 shell-integration-features = no-cursor
 
+# ssh接続先での$TERM対策
+term = xterm-256color
+
+# 画面分割時にアクティブなウィンドウ以外は暗くする
+unfocused-split-fill = gainsboro
+
+# コマンド終了時にウィンドウを閉じない
+wait-after-command = true
