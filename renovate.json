@@ -8,5 +8,13 @@
   "reviewers": ["d-kuro"],
   "automerge": true,
   "platformAutomerge": true,
-  "dependencyDashboard": true
+  "dependencyDashboard": true,
+  "packageRules": [
+    {
+      "matchManagers": ["aqua"],
+      "matchPackageNames": ["nodejs/node"],
+      "matchUpdateTypes": ["major"],
+      "enabled": false
+    }
+  ]
 }
