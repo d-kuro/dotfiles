@@ -1,0 +1,11 @@
+[tools]
+node = "24"
+python = "3.13.5"
+
+"npm:@anthropic-ai/claude-code" = "latest"
+"npm:@google/gemini-cli" = "latest"
+"npm:ccusage" = "latest"
+"npm:reviewit" = "latest"
+
+[settings]
+python_compile = true

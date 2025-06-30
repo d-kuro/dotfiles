@@ -29,7 +29,7 @@ packages:
 - name: google/yamlfmt@v0.17.0
 - name: rhysd/actionlint@v1.7.7
 - name: mrtazz/checkmake@0.2.2
-- name: eza-community/eza@0.21.4
+- name: eza-community/eza@0.21.3
 - name: starship/starship@v1.23.0
 - name: twistedpair/google-cloud-sdk@524.0.0
 - name: jqlang/jq@jq-1.7.1
@@ -38,7 +38,6 @@ packages:
 - name: rossmacarthur/sheldon@0.8.2
 - name: aws/aws-cli@2.27.26
 - name: mikefarah/yq@v4.45.2
-- name: nodejs/node@v22.16.0
 - name: golang.org/x/tools/gopls@gopls/v0.17.0
 - name: golang/tools/goimports@v0.28.0
 - name: sachaos/viddy@v1.3.0

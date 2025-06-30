@@ -123,6 +123,11 @@ eval "$(starship init zsh)"
 eval "$(sheldon source)"
 
 # ---------------
+# mise
+# ---------------
+eval "$(mise activate zsh)"
+
+# ---------------
 # Cline
 # ---------------
 # https://github.com/cline/cline/wiki/Troubleshooting-%E2%80%90-Shell-Integration-Unavailable#still-having-trouble
