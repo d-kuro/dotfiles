@@ -1,18 +1,11 @@
 {
   "extends": [
+    "config:recommended",
     "github>aquaproj/aqua-renovate-config#2.8.2"
   ],
   "labels": ["dependencies"],
   "reviewers": ["d-kuro"],
   "automerge": true,
   "platformAutomerge": true,
-  "dependencyDashboard": true,
-  "packageRules": [
-    {
-      "matchManagers": ["aqua"],
-      "matchPackageNames": ["nodejs/node"],
-      "matchUpdateTypes": ["major"],
-      "enabled": false
-    }
-  ]
+  "dependencyDashboard": true
 }
