@@ -7,3 +7,9 @@
 !.config/ghostty
 !.config/mise
 !.config/tmux
+
+# Claude settings
+.claude/*
+!.claude/settings.json
+!.claude/commands/
+!.claude/scripts/
