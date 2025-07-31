@@ -4,7 +4,7 @@ node = "22"
 python = "3.13.5"
 rust = "latest"
 
-"npm:@anthropic-ai/claude-code" = "1.0.55"
+"npm:@anthropic-ai/claude-code" = "1.0.64"
 "npm:@google/gemini-cli" = "latest"
 
 "npm:ccusage" = "latest"
