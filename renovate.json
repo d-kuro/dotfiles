@@ -7,5 +7,12 @@
   "reviewers": ["d-kuro"],
   "automerge": true,
   "platformAutomerge": true,
-  "dependencyDashboard": true
+  "dependencyDashboard": true,
+  "packageRules": [
+    {
+      "matchPackageNames": ["@anthropic-ai/claude-code"],
+      "enabled": false
+    }
+  ]
 }
+
