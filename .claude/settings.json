@@ -18,6 +18,10 @@
           {
             "type": "command",
             "command": "jq -r '.tool_input.file_path | select(endswith(\".go\"))' | xargs -r golangci-lint run --fix --fast-only"
+          },
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path | select(endswith(\".tf\"))' | xargs -r terraform fmt"
           }
         ]
       }
@@ -33,6 +37,10 @@
         ]
       }
     ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/scripts/statusline.js"
   }
 }
 
