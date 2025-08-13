@@ -1,6 +1,6 @@
 {
   "env": {
-    "USE_BUILTIN_RIPGREP": 1
+    "USE_BUILTIN_RIPGREP": "1"
   },
   "hooks": {
     "PostToolUse": [
@@ -40,7 +40,9 @@
   },
   "statusLine": {
     "type": "command",
-    "command": "~/.claude/scripts/statusline.js"
-  }
+    "command": "bun x ccusage statusline",
+    "padding": 0
+  },
+  "model": "opusplan"
 }
 
