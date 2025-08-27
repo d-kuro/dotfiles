@@ -2,16 +2,20 @@
 go = "1.25.0"
 node = "22"
 bun = "latest"
-python = "3.13.7"
+python = "3.13.6"
 rust = "latest"
+java = "21"
 
-"npm:@anthropic-ai/claude-code" = "latest"
+"npm:typescript" = "latest"
+
 "npm:@google/gemini-cli" = "latest"
 
 "npm:ccusage" = "latest"
 "pipx:claude-monitor" = "latest"
 "npm:difit" = "latest"
 "cargo:git-delta" = "latest"
+"cargo:similarity-ts" = "latest"
 "cargo:similarity-generic" = "latest"
 "npm:prettier" = "latest"
+"npm:@ysk8hori/typescript-graph" = "latest"
 

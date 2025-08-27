@@ -1,7 +1,15 @@
 {
   "env": {
-    "USE_BUILTIN_RIPGREP": "1"
+    "CLAUDE_CODE_AUTO_CONNECT_IDE": false,
+    "CLAUDE_CODE_IDE_SKIP_AUTO_INSTALL": true,
+    "CLAUDE_CODE_IDE_SKIP_VALID_CHECK": true,
+    "CLAUDE_CODE_ENABLE_TELEMETRY": false,
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": true,
+    "DISABLE_ERROR_REPORTING": true,
+    "DISABLE_TELEMETRY": true,
+    "DISABLE_MICROCOMPACT": true
   },
+  "model": "opusplan",
   "hooks": {
     "PostToolUse": [
       {
@@ -40,9 +48,7 @@
   },
   "statusLine": {
     "type": "command",
-    "command": "bun x ccusage statusline",
+    "command": "bunx -y ccstatusline@latest",
     "padding": 0
-  },
-  "model": "opusplan"
+  }
 }
-
