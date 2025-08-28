@@ -21,7 +21,7 @@ packages:
   - name: kubernetes-sigs/kustomize@kustomize/v5.7.1
   - name: BurntSushi/ripgrep@14.1.1
   - name: sharkdp/fd@v10.3.0
-  - name: kubernetes-sigs/kind@v0.29.0
+  - name: kubernetes-sigs/kind@v0.30.0
   - name: koalaman/shellcheck@v0.11.0
   - name: docker/cli@v28.3.2
   - name: google/yamlfmt@v0.17.2
