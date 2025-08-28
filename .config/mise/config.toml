@@ -2,7 +2,7 @@
 go = "1.25.0"
 node = "22"
 bun = "latest"
-python = "3.13.6"
+python = "3.13.7"
 rust = "latest"
 java = "21.0.8+9.0.LTS"
 
