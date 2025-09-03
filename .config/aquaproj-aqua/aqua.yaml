@@ -34,7 +34,7 @@ packages:
   - name: neovim/neovim@v0.11.4
   - name: aquasecurity/trivy@v0.66.0
   - name: rossmacarthur/sheldon@0.8.5
-  - name: aws/aws-cli@2.28.22
+  - name: aws/aws-cli@2.28.23
   - name: mikefarah/yq@v4.47.1
   - name: golang.org/x/tools/gopls@gopls/v0.17.0
   - name: golang/tools/goimports@v0.35.0
