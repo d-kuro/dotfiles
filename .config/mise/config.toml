@@ -4,10 +4,11 @@ node = "22"
 bun = "latest"
 python = "3.13.6"
 rust = "latest"
-java = "21.0.8+9.0.LTS"
+java = "21"
 
 "npm:typescript" = "latest"
 
+"npm:@openai/codex" = "latest"
 "npm:@google/gemini-cli" = "latest"
 
 "npm:ccusage" = "latest"

@@ -14,3 +14,8 @@
 !.claude/commands/
 !.claude/scripts/
 
+# Codex
+.codex/*
+!.codex/config.toml
+!.codex/scripts/
+
