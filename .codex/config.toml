@@ -2,7 +2,7 @@ model_reasoning_effort = "high"
 hide_agent_reasoning = true
 network_access = true
 
-notify = ["bash", "~/.codex/notify.sh"]
+notify = ["bash", "/Users/dkuro/.codex/scripts/notify.sh"]
 
 [tools]
 web_search = true
@@ -10,4 +10,3 @@ web_search = true
 [mcp_servers.serena]
 command = "uvx"
 args = ["--from", "git+https://github.com/oraios/serena", "serena", "start-mcp-server", "--context", "codex"]
-
