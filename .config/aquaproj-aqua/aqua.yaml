@@ -11,7 +11,7 @@ registries:
 packages:
   - name: cli/cli@v2.79.0
   - name: junegunn/fzf@v0.65.2
-  - name: kubernetes/kubectl@v1.34.0
+  - name: kubernetes/kubectl@v1.34.1
   - name: x-motemen/ghq@v1.8.0
   - name: sharkdp/bat@v0.25.0
   - name: golangci/golangci-lint@v2.4.0
