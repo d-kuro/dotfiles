@@ -24,4 +24,4 @@ java = "21"
 
 "cargo:similarity-ts" = "latest"
 "cargo:similarity-generic" = "latest"
-"npm:@ysk8hori/typescript-graph" = "latest"
+

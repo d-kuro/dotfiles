@@ -1,5 +1,5 @@
 shell-integration = zsh
-theme = catppuccin-frappe
+theme = Catppuccin Frappe
 font-size = 10
 
 # カーソルの色変更

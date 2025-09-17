@@ -1,6 +1,8 @@
-model_reasoning_effort = "high"
+model = "gpt-5-codex"
 hide_agent_reasoning = true
 network_access = true
+
+model_reasoning_summary_format = "experimental"
 
 notify = ["bash", "/Users/dkuro/.codex/scripts/notify.sh"]
 
@@ -10,3 +12,4 @@ web_search = true
 [mcp_servers.serena]
 command = "uvx"
 args = ["--from", "git+https://github.com/oraios/serena", "serena", "start-mcp-server", "--context", "codex"]
+
