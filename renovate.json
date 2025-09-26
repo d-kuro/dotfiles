@@ -12,6 +12,14 @@
     {
       "matchPackageNames": ["@anthropic-ai/claude-code"],
       "enabled": false
+    },
+    {
+      "matchManagers": ["custom.regex"],
+      "matchDatasources": ["github-tags"],
+      "matchDepNames": ["openai/codex"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true,
+      "automergeType": "pr"
     }
   ],
   "customManagers": [
