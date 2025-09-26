@@ -17,7 +17,7 @@
   "customManagers": [
     {
       "customType": "regex",
-      "managerFilePatterns": ["/^\\.config/mise/config\\.toml$/"],
+      "fileMatch": ["^\\.config/mise/config\\.toml$"],
       "matchStrings": [
         "\"cargo:https://github.com/openai/codex.git\"\\s*=\\s*{[^\\n]*version\\s*=\\s*\"tag:(?<currentValue>[^\"]+)\""
       ],
