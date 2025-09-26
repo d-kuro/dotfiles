@@ -13,6 +13,16 @@
       "matchPackageNames": ["@anthropic-ai/claude-code"],
       "enabled": false
     }
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": ["^\\.config/mise/config\\.toml$"],
+      "matchStrings": [
+        "\"cargo:https://github.com/openai/codex.git\"\\s*=\\s*{[^\\n]*version\\s*=\\s*\"tag:(?<currentValue>[^\"]+)\""
+      ],
+      "datasourceTemplate": "github-tags",
+      "depNameTemplate": "openai/codex",
+      "versioningTemplate": "regex:^(?<prefix>rust-v)?(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(?:-(?<prerelease>.+))?$"
+    }
   ]
 }
-

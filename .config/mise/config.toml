@@ -11,7 +11,7 @@ java = "25.0.0+36.0.LTS"
 
 "cargo:eza" = "latest"
 
-"cargo:https://github.com/openai/codex.git" = { version = "tag:rust-v0.40.0", crate = "codex-cli" }
+"cargo:https://github.com/openai/codex.git" = { version = "tag:rust-v0.41.0", crate = "codex-cli" }
 
 "npm:@google/gemini-cli" = "latest"
 
