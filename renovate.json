@@ -30,22 +30,7 @@
         "openai/codex"
       ],
       "ignoreUnstable": false,
-      "respectLatest": false
-    },
-    {
-      "matchManagers": [
-        "custom.regex"
-      ],
-      "matchDatasources": [
-        "github-tags"
-      ],
-      "matchDepNames": [
-        "openai/codex"
-      ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
+      "respectLatest": false,
       "automerge": true,
       "automergeType": "pr"
     }
@@ -53,8 +38,8 @@
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": [
-        "^\\.config/mise/config\\.toml$"
+      "managerFilePatterns": [
+        "/^\\.config/mise/config\\.toml$/"
       ],
       "matchStrings": [
         "\"cargo:https://github.com/openai/codex.git\"\\s*=\\s*{[^\\n]*version\\s*=\\s*\"tag:(?<currentValue>[^\"]+)\""
