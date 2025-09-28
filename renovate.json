@@ -3,21 +3,49 @@
     "config:recommended",
     "github>aquaproj/aqua-renovate-config#2.9.0"
   ],
-  "labels": ["dependencies"],
-  "reviewers": ["d-kuro"],
+  "labels": [
+    "dependencies"
+  ],
+  "reviewers": [
+    "d-kuro"
+  ],
   "automerge": true,
   "platformAutomerge": true,
   "dependencyDashboard": true,
   "packageRules": [
     {
-      "matchPackageNames": ["@anthropic-ai/claude-code"],
+      "matchPackageNames": [
+        "@anthropic-ai/claude-code"
+      ],
       "enabled": false
     },
     {
-      "matchManagers": ["custom.regex"],
-      "matchDatasources": ["github-tags"],
-      "matchDepNames": ["openai/codex"],
-      "matchUpdateTypes": ["minor", "patch"],
+      "matchManagers": [
+        "custom.regex"
+      ],
+      "matchDatasources": [
+        "github-tags"
+      ],
+      "matchDepNames": [
+        "openai/codex"
+      ],
+      "ignoreUnstable": false,
+      "respectLatest": false
+    },
+    {
+      "matchManagers": [
+        "custom.regex"
+      ],
+      "matchDatasources": [
+        "github-tags"
+      ],
+      "matchDepNames": [
+        "openai/codex"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
       "automerge": true,
       "automergeType": "pr"
     }
@@ -25,7 +53,9 @@
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": ["^\\.config/mise/config\\.toml$"],
+      "fileMatch": [
+        "^\\.config/mise/config\\.toml$"
+      ],
       "matchStrings": [
         "\"cargo:https://github.com/openai/codex.git\"\\s*=\\s*{[^\\n]*version\\s*=\\s*\"tag:(?<currentValue>[^\"]+)\""
       ],
