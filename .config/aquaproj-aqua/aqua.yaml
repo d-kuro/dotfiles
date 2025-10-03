@@ -41,6 +41,6 @@ packages:
   - name: 1password/cli
     version: "v2.30.3"
   - name: prometheus/prometheus@v3.6.0
-  - name: johanhaleby/kubetail@1.6.20
+  - name: johanhaleby/kubetail@1.6.21
   - name: dalance/procs@v0.14.10
   - name: istio/istio/istioctl@1.27.1
