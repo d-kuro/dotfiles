@@ -4,6 +4,7 @@ hide_agent_reasoning = true
 network_access = true
 
 model_reasoning_summary_format = "experimental"
+experimental_use_rmcp_client = true
 
 notify = ["bash", "/Users/dkuro/.codex/scripts/notify.sh"]
 

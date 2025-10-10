@@ -56,8 +56,9 @@
         smudge = git-lfs smudge -- %f
         process = git-lfs filter-process
         required = true
+# Need comment out when using `sheldon lock --update`
 [url "git@github.com:"]
         insteadOf = https://github.com/
 
 [includeIf "gitdir:~/ghq/aws/"]
-  path = ~/.gitconfig-aws
+        path = ~/.gitconfig-aws
