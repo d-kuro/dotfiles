@@ -62,14 +62,6 @@ export GIT_CONFIG_SYSTEM=''
 # editor
 export EDITOR=vim
 
-function fzf-select-history() {
-    BUFFER=$(history -n -r 1 | fzf --query "$LBUFFER")
-    CURSOR=$#BUFFER
-    zle reset-prompt
-}
-zle -N fzf-select-history
-bindkey '^r' fzf-select-history
-
 function sshfzf() {
   # OS detection: use -nE for Darwin (macOS) and -nr for Linux
   local os sedOpts
@@ -127,12 +119,6 @@ eval "$(sheldon source)"
 # mise
 # ---------------
 eval "$(mise activate zsh)"
-
-# ---------------
-# Cline
-# ---------------
-# https://github.com/cline/cline/wiki/Troubleshooting-%E2%80%90-Shell-Integration-Unavailable#still-having-trouble
-[[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code --locate-shell-integration-path zsh)"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f "$HOME/google-cloud-sdk/path.zsh.inc" ]; then . "$HOME/google-cloud-sdk/path.zsh.inc"; fi
