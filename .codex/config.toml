@@ -4,15 +4,14 @@ hide_agent_reasoning = true
 network_access = true
 
 model_reasoning_summary_format = "experimental"
-experimental_use_rmcp_client = true
 
 notify = ["bash", "/Users/dkuro/.codex/scripts/notify.sh"]
 
-[tools]
-web_search = true
+[features]
+rmcp_client = true
+web_search_request = true
 
 [mcp_servers.serena]
 command = "uvx"
 args = ["--from", "git+https://github.com/oraios/serena", "serena", "start-mcp-server", "--context", "codex"]
 startup_timeout_ms = 30000
-
