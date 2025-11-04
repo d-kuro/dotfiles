@@ -28,7 +28,7 @@ packages:
   - name: rhysd/actionlint@v1.7.8
   - name: mrtazz/checkmake@0.2.2
   - name: starship/starship@v1.24.0
-  - name: twistedpair/google-cloud-sdk@545.0.0
+  - name: twistedpair/google-cloud-sdk@546.0.0
   - name: jqlang/jq@jq-1.8.1
   - name: neovim/neovim@v0.11.5
   - name: aquasecurity/trivy@v0.67.2
