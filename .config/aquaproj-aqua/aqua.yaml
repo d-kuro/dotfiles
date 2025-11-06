@@ -1,5 +1,6 @@
 # aqua - Declarative CLI Version Manager
 # https://aquaproj.github.io/
+# Note: Many tools have been migrated to mise. See .config/mise/config.toml for those tools.
 # checksum:
 #   enabled: true
 #   require_checksum: true
@@ -9,38 +10,9 @@ registries:
   - type: standard
     ref: v4.433.0 # renovate: depName=aquaproj/aqua-registry
 packages:
-  - name: cli/cli@v2.83.0
-  - name: junegunn/fzf@v0.66.1
-  - name: kubernetes/kubectl@v1.34.1
-  - name: x-motemen/ghq@v1.8.0
-  - name: sharkdp/bat@v0.26.0
-  - name: golangci/golangci-lint@v2.6.1
-  - name: helm/helm@v3.19.0
-  - name: helmfile/helmfile@v1.1.9
-  - name: hashicorp/terraform@v1.13.5
-  - name: kubernetes-sigs/kustomize@kustomize/v5.7.1
-  - name: BurntSushi/ripgrep@15.1.0
-  - name: sharkdp/fd@v10.3.0
-  - name: kubernetes-sigs/kind@v0.30.0
-  - name: koalaman/shellcheck@v0.11.0
+  # Tools kept in aqua (require special handling or official installation methods)
   - name: docker/cli@v28.3.2
-  - name: google/yamlfmt@v0.20.0
-  - name: rhysd/actionlint@v1.7.8
-  - name: mrtazz/checkmake@0.2.2
-  - name: starship/starship@v1.24.0
-  - name: twistedpair/google-cloud-sdk@546.0.0
-  - name: jqlang/jq@jq-1.8.1
-  - name: neovim/neovim@v0.11.5
-  - name: aquasecurity/trivy@v0.67.2
-  - name: rossmacarthur/sheldon@0.8.5
-  - name: aws/aws-cli@2.31.31
-  - name: mikefarah/yq@v4.48.1
-  - name: golang.org/x/tools/gopls@gopls/v0.17.0
-  - name: golang/tools/goimports@v0.35.0
-  - name: sachaos/viddy@v1.3.0
   - name: 1password/cli
     version: "v2.30.3"
   - name: prometheus/prometheus@v3.7.3
-  - name: johanhaleby/kubetail@1.6.21
-  - name: dalance/procs@v0.14.10
   - name: istio/istio/istioctl@1.28.0
