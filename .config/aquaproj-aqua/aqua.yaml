@@ -1,6 +1,6 @@
 # aqua - Declarative CLI Version Manager
 # https://aquaproj.github.io/
-# Note: Many tools have been migrated to mise. See .config/mise/config.toml for those tools.
+# Note: All tools have been migrated to mise. See .config/mise/config.toml for those tools.
 # checksum:
 #   enabled: true
 #   require_checksum: true
@@ -9,9 +9,4 @@
 registries:
   - type: standard
     ref: v4.433.0 # renovate: depName=aquaproj/aqua-registry
-packages:
-  # Tools kept in aqua (require special handling or official installation methods)
-  - name: 1password/cli
-    version: "v2.30.3"
-  - name: prometheus/prometheus@v3.7.3
-  - name: istio/istio/istioctl@1.28.0
+packages: []
