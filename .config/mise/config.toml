@@ -12,7 +12,7 @@ java = "latest"
 
 "cargo:eza" = "latest"
 
-"cargo:https://github.com/openai/codex.git" = { version = "tag:rust-v0.56.0-alpha.3", crate = "codex-cli" }
+"cargo:https://github.com/openai/codex.git" = { version = "tag:rust-v0.56.0-alpha.4", crate = "codex-cli" }
 
 "npm:@google/gemini-cli" = "latest"
 
