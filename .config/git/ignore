@@ -1,4 +1,7 @@
 .DS_Store
 .idea/
 
+_docs/
+_scripts/
+
 **/.claude/settings.local.json
