@@ -12,7 +12,6 @@ java = "latest"
 
 "cargo:eza" = "latest"
 "cargo:sheldon" = "0.8.5"       # Shell plugin manager (was rossmacarthur/sheldon)
-"cargo:viddy" = "1.3.0"         # Modern watch command (was sachaos/viddy)
 "cargo:procs" = "0.14.10"       # Modern ps replacement (was dalance/procs)
 
 "cargo:https://github.com/openai/codex.git" = { version = "tag:rust-v0.57.0-alpha.3", crate = "codex-cli" }
@@ -27,11 +26,6 @@ java = "latest"
 "npm:difit" = "latest"
 "cargo:git-delta" = "latest"
 
-"cargo:similarity-ts" = "latest"
-"cargo:similarity-generic" = "latest"
-
-# Migrated from aqua
-# CLI tools
 gh = "2.83.0"                    # GitHub CLI (was cli/cli)
 fzf = "0.66.1"                   # Fuzzy finder (was junegunn/fzf)
 kubectl = "1.34.1"               # Kubernetes CLI (was kubernetes/kubectl)
@@ -50,12 +44,9 @@ actionlint = "1.7.8"             # GitHub Actions linter (was rhysd/actionlint)
 starship = "1.24.0"              # Cross-shell prompt (was starship/starship)
 jq = "1.8.1"                     # JSON processor (was jqlang/jq)
 neovim = "0.11.5"                # Vim-fork text editor (was neovim/neovim)
-trivy = "0.67.2"                 # Security scanner (was aquasecurity/trivy)
-awscli = "2.31.32"               # AWS CLI (was aws/aws-cli)
+awscli = "2.31.30"               # AWS CLI (was aws/aws-cli)
 yq = "4.48.1"                    # YAML processor (was mikefarah/yq)
 ghq = "1.8.0"                    # Repository management tool (was x-motemen/ghq)
-kubetail = "1.6.21"              # Tail Kubernetes logs (was johanhaleby/kubetail)
 checkmake = "0.2.2"              # Makefile linter (was mrtazz/checkmake)
 gcloud = "546.0.0"               # Google Cloud SDK (was twistedpair/google-cloud-sdk)
 docker-cli = "28.3.2"            # Docker CLI (was docker/cli)
-
