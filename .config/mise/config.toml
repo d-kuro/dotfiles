@@ -14,7 +14,7 @@ java = "latest"
 "cargo:sheldon" = "0.8.5"       # Shell plugin manager (was rossmacarthur/sheldon)
 "cargo:procs" = "0.14.10"       # Modern ps replacement (was dalance/procs)
 
-"cargo:https://github.com/openai/codex.git" = { version = "tag:rust-v0.57.0-alpha.3", crate = "codex-cli" }
+"cargo:https://github.com/openai/codex.git" = { version = "tag:rust-v0.57.0", crate = "codex-cli" }
 
 "npm:@google/gemini-cli" = "latest"
 
