@@ -101,6 +101,11 @@ function sshfzf() {
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # ---------------
+# mise
+# ---------------
+eval "$(mise activate zsh)"
+
+# ---------------
 # Enable kubectl completion
 # ---------------
 source <(kubectl completion zsh)
@@ -114,11 +119,6 @@ eval "$(starship init zsh)"
 # sheldon
 # ---------------
 eval "$(sheldon source)"
-
-# ---------------
-# mise
-# ---------------
-eval "$(mise activate zsh)"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f "$HOME/google-cloud-sdk/path.zsh.inc" ]; then . "$HOME/google-cloud-sdk/path.zsh.inc"; fi
