@@ -27,9 +27,6 @@ github = 'zdharma/fast-syntax-highlighting'
 [plugins.fzf-tab]
 github = 'Aloxaf/fzf-tab'
 
-[plugins.zsh-fzf-history-search]
-github = 'joshskidmore/zsh-fzf-history-search'
-
 # For example:
 #
 # [plugins.base16]

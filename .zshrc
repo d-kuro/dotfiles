@@ -61,6 +61,8 @@ export AQUA_GLOBAL_CONFIG=${AQUA_GLOBAL_CONFIG:-}:${XDG_CONFIG_HOME:-$HOME/.conf
 export GIT_CONFIG_SYSTEM=''
 # editor
 export EDITOR=vim
+# IntelliShell
+export INTELLI_SEARCH_HOTKEY=^R
 
 function sshfzf() {
   # OS detection: use -nE for Darwin (macOS) and -nr for Linux
@@ -119,6 +121,7 @@ eval "$(starship init zsh)"
 # sheldon
 # ---------------
 eval "$(sheldon source)"
+eval "$(intelli-shell init zsh)"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f "$HOME/google-cloud-sdk/path.zsh.inc" ]; then . "$HOME/google-cloud-sdk/path.zsh.inc"; fi
