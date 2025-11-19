@@ -63,6 +63,7 @@ export GIT_CONFIG_SYSTEM=''
 export EDITOR=vim
 # IntelliShell
 export INTELLI_SEARCH_HOTKEY=^R
+export INTELLI_CONFIG=$HOME/.config/intelli-shell/config.toml
 
 function sshfzf() {
   # OS detection: use -nE for Darwin (macOS) and -nr for Linux

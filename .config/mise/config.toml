@@ -10,6 +10,8 @@ java = "latest"
 "npm:prettier" = "latest"
 "npm:pnpm" = "latest-10"
 
+"go:github.com/suzuki-shunsuke/pinact/cmd/pinact" = "latest"
+
 cargo-binstall = "latest"
 
 "cargo:eza" = "latest"
