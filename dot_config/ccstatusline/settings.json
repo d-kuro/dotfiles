@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "lines": [
+    [
+      {
+        "id": "1",
+        "type": "model",
+        "color": "cyan"
+      },
+      {
+        "id": "3",
+        "type": "context-length",
+        "color": "brightBlack",
+        "merge": true,
+        "rawValue": false
+      },
+      {
+        "id": "8569d37d-a777-4446-b583-226cbf83d6c9",
+        "type": "context-percentage",
+        "backgroundColor": "bgBrightGreen",
+        "rawValue": true
+      },
+      {
+        "id": "5",
+        "type": "session-clock",
+        "color": "magenta"
+      },
+      {
+        "id": "7",
+        "type": "git-branch",
+        "color": "yellow"
+      },
+      {
+        "id": "2276cd24-3b78-4df7-afc8-a3c2b2d4828d",
+        "type": "git-changes",
+        "backgroundColor": "bgBrightMagenta"
+      }
+    ],
+    [
+      {
+        "id": "76da0c81-6054-4773-bc2e-a9f776c86eac",
+        "type": "tokens-input",
+        "backgroundColor": "bgBrightBlack"
+      },
+      {
+        "id": "bdec94c7-9ffb-40aa-b38b-f5e17a8841c0",
+        "type": "tokens-output",
+        "backgroundColor": "bgRed"
+      },
+      {
+        "id": "cef7025a-7d2c-4a85-b581-02efb983c3b3",
+        "type": "tokens-cached",
+        "backgroundColor": "bgMagenta"
+      },
+      {
+        "id": "762dea1e-b1de-481c-b28a-749c2bb26b4b",
+        "type": "tokens-total",
+        "backgroundColor": "bgBrightBlack"
+      }
+    ],
+    [
+      {
+        "id": "aa662245-cea6-4a7f-a262-c6079e584cc6",
+        "type": "block-timer",
+        "backgroundColor": "bgRed",
+        "merge": true,
+        "metadata": {
+          "display": "progress-short"
+        }
+      },
+      {
+        "id": "597cd1c2-33b6-4bb4-97ca-1725e5c1f6a3",
+        "type": "block-timer",
+        "backgroundColor": "bgBrightBlack",
+        "rawValue": true
+      }
+    ]
+  ],
+  "flexMode": "full-minus-40",
+  "compactThreshold": 60,
+  "colorLevel": 2,
+  "defaultPadding": " ",
+  "inheritSeparatorColors": false,
+  "globalBold": false,
+  "powerline": {
+    "enabled": true,
+    "separators": [
+      ""
+    ],
+    "separatorInvertBackground": [
+      false
+    ],
+    "startCaps": [
+      "",
+      "",
+      ""
+    ],
+    "endCaps": [
+      ""
+    ],
+    "theme": "nord-aurora"
+  }
+}

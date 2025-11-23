@@ -1,0 +1,6 @@
+data_dir = "/Users/dkuro/.intelli-shell"
+inline = false
+
+[search]
+exec_on_alias_match = true
+

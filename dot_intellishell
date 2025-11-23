@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+# shellcheck shell=bash
+
+# Format all Terraform files in the project
+terraform fmt -recursive
+
+# [alias:ghqcd] Jump to a repository managed by ghq
+cd "$(ghq list --exact --full-path '{{repo}}')" || exit
+
+# [alias:ghqawscd] Jump to an AWS CodeCommit repository managed by ghq
+cd "$(ghq list --exact --full-path "{{awsrepo}}")" || exit
+
+# [alias:gitswitch] Interactively switch Git branches
+git switch "{{branch}}"
+
+# [alias:gitbranchd] Interactively delete a Git branch
+git branch -D "{{branch}}"
+
+# rebase
+git rebase -i @~2 --autosquash
+
+# Configure Git to store credentials locally for this repository only
+git config --local credential.helper "store --file=.git/credentials"
+
+## -- Completions --
+$ (cd) repo: ghq list | sort
+$ (cd) awsrepo: ghq list | grep codecommit | sort
+$ (git) branch: git branch --format "%(refname:short)"
