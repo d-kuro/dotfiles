@@ -55,4 +55,5 @@ ghq = "1.8.0"                    # Repository management tool (was x-motemen/ghq
 checkmake = "0.2.2"              # Makefile linter (was mrtazz/checkmake)
 gcloud = "546.0.0"               # Google Cloud SDK (was twistedpair/google-cloud-sdk)
 docker-cli = "28.3.2"            # Docker CLI (was docker/cli)
+chezmoi = "latest"
 
