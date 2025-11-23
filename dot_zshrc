@@ -31,6 +31,9 @@ autoload -Uz compinit
 compinit
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 zstyle ':completion:*:descriptions' format '[%d]'
+bindkey -e
+bindkey '^A' beginning-of-line
+bindkey '^E' end-of-line
 
 # ---------------
 # PATH

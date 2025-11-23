@@ -1,0 +1,23 @@
+README.md
+LICENSE
+renovate.json
+.gitignore
+
+.github/*
+
+.config/*
+!.config/git
+!.config/aquaproj-aqua
+!.config/sheldon
+!.config/wezterm
+!.config/starship.toml
+!.config/nvim
+!.config/ghostty
+!.config/mise
+!.config/tmux
+
+# Claude settings
+
+.claude/*
+!.claude/settings.json
+!.claude/scripts/
