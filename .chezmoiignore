@@ -18,8 +18,11 @@ renovate.json
 !.config/tmux
 !.config/intelli-shell
 
-# Claude settings
-
 .claude/*
 !.claude/settings.json
 !.claude/scripts/
+
+.codex/*
+!.codex/AGENTS.md
+!.codex/config.toml
+!.codex/scripts/
