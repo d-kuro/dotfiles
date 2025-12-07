@@ -9,6 +9,8 @@ java = "latest"
 "npm:typescript" = "latest"
 "npm:prettier" = "latest"
 "npm:pnpm" = "latest-10"
+"npm:oxlint" = "latest"
+"npm:@anthropic-ai/claude-code" = "latest"
 
 "go:github.com/suzuki-shunsuke/pinact/cmd/pinact" = "latest"
 
@@ -26,6 +28,8 @@ cargo-binstall = "latest"
 # Claude Code
 "npm:ccusage" = "latest"
 "pipx:claude-monitor" = "latest"
+"pipx:ruff" = "latest"
+"pipx:ty" = "latest"
 
 # Git diffs
 "npm:difit" = "latest"

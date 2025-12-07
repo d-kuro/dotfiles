@@ -1,4 +1,5 @@
 {
+  "includeCoAuthoredBy": false,
   "env": {
     "CLAUDE_CODE_AUTO_CONNECT_IDE": "false",
     "CLAUDE_CODE_IDE_SKIP_AUTO_INSTALL": "true",
@@ -16,7 +17,23 @@
         "hooks": [
           {
             "type": "command",
-            "command": "jq -r '.tool_input.file_path | select(endswith(\".js\") or endswith(\".ts\") or endswith(\".jsx\") or endswith(\".tsx\"))' | xargs -r prettier --write"
+            "command": "jq -r '.tool_input.file_path | select(endswith(\".js\") or endswith(\".ts\") or endswith(\".jsx\") or endswith(\".tsx\") or endswith(\".mjs\") or endswith(\".mts\") or endswith(\".cjs\") or endswith(\".cts\"))' | xargs -r oxfmt"
+          },
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path | select(endswith(\".js\") or endswith(\".ts\") or endswith(\".jsx\") or endswith(\".tsx\") or endswith(\".mjs\") or endswith(\".mts\") or endswith(\".cjs\") or endswith(\".cts\"))' | xargs -r oxlint --fix"
+          },
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path | select(endswith(\".py\"))' | xargs -r ruff format"
+          },
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path | select(endswith(\".py\"))' | xargs -r ruff check --fix"
+          },
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path | select(endswith(\".py\"))' | xargs -r ty check"
           },
           {
             "type": "command",
