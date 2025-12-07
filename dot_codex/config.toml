@@ -10,6 +10,7 @@ notify = ["bash", "/Users/dkuro/.codex/scripts/notify.sh"]
 [features]
 rmcp_client = true
 web_search_request = true
+skills = true
 
 [notice]
 "hide_gpt-5.1-codex-max_migration_prompt" = true
