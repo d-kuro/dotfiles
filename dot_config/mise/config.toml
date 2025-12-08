@@ -21,7 +21,7 @@ cargo-binstall = "latest"
 "cargo:procs" = "0.14.10"       # Modern ps replacement (was dalance/procs)
 "cargo:intelli-shell" = "latest"
 
-"cargo:https://github.com/openai/codex.git" = { version = "tag:rust-v0.66.0-alpha.10", crate = "codex-cli" }
+"cargo:https://github.com/openai/codex.git" = { version = "tag:rust-v0.66.0-alpha.11", crate = "codex-cli" }
 
 "npm:@google/gemini-cli" = "latest"
 
