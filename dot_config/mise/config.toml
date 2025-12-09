@@ -10,6 +10,7 @@ java = "latest"
 "npm:prettier" = "latest"
 "npm:pnpm" = "latest-10"
 "npm:oxlint" = "latest"
+"npm:oxfmt" = "latest"
 "npm:@anthropic-ai/claude-code" = "latest"
 
 "go:github.com/suzuki-shunsuke/pinact/cmd/pinact" = "latest"
