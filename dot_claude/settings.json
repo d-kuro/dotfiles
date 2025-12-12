@@ -1,6 +1,7 @@
 {
   "includeCoAuthoredBy": false,
   "env": {
+    "CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR": "1",
     "CLAUDE_CODE_AUTO_CONNECT_IDE": "false",
     "CLAUDE_CODE_IDE_SKIP_AUTO_INSTALL": "true",
     "CLAUDE_CODE_IDE_SKIP_VALID_CHECK": "true",
@@ -9,6 +10,9 @@
     "DISABLE_ERROR_REPORTING": "true",
     "DISABLE_TELEMETRY": "true",
     "DISABLE_MICROCOMPACT": "true"
+  },
+  "permissions": {
+    "deny": ["NotebookEdit"]
   },
   "hooks": {
     "PostToolUse": [
