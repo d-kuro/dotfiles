@@ -3,51 +3,10 @@
     "config:recommended",
     "github>aquaproj/aqua-renovate-config#2.9.0"
   ],
-  "labels": [
-    "dependencies"
-  ],
-  "reviewers": [
-    "d-kuro"
-  ],
+  "labels": ["dependencies"],
+  "reviewers": ["d-kuro"],
   "automerge": true,
   "platformAutomerge": true,
   "ignoreTests": true,
-  "dependencyDashboard": true,
-  "packageRules": [
-    {
-      "matchPackageNames": [
-        "@anthropic-ai/claude-code"
-      ],
-      "enabled": false
-    },
-    {
-      "matchManagers": [
-        "custom.regex"
-      ],
-      "matchDatasources": [
-        "github-tags"
-      ],
-      "matchDepNames": [
-        "openai/codex"
-      ],
-      "ignoreUnstable": false,
-      "respectLatest": false,
-      "automerge": true,
-      "automergeType": "pr"
-    }
-  ],
-  "customManagers": [
-    {
-      "customType": "regex",
-      "managerFilePatterns": [
-        "/^dot_config/mise/config\\.toml$/"
-      ],
-      "matchStrings": [
-        "\"cargo:https://github.com/openai/codex.git\"\\s*=\\s*{[^\\n]*version\\s*=\\s*\"tag:(?<currentValue>[^\"]+)\""
-      ],
-      "datasourceTemplate": "github-tags",
-      "depNameTemplate": "openai/codex",
-      "versioningTemplate": "regex:^(?<prefix>rust-v)?(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(?:-(?<prerelease>.+))?$"
-    }
-  ]
+  "dependencyDashboard": true
 }

@@ -1,6 +1,6 @@
 [tools]
 go = "latest"
-node = "24"
+node = "25"
 bun = "latest"
 python = "3.14.2"
 rust = "latest"
@@ -11,7 +11,6 @@ java = "latest"
 "npm:pnpm" = "latest-10"
 "npm:oxlint" = "latest"
 "npm:oxfmt" = "latest"
-"npm:@anthropic-ai/claude-code" = "latest"
 
 "go:github.com/suzuki-shunsuke/pinact/cmd/pinact" = "latest"
 
@@ -21,8 +20,6 @@ cargo-binstall = "latest"
 "cargo:sheldon" = "0.8.5"       # Shell plugin manager (was rossmacarthur/sheldon)
 "cargo:procs" = "0.14.10"       # Modern ps replacement (was dalance/procs)
 "cargo:intelli-shell" = "latest"
-
-"cargo:https://github.com/openai/codex.git" = { version = "tag:rust-v0.72.0-alpha.8", crate = "codex-cli" }
 
 "npm:@google/gemini-cli" = "latest"
 
@@ -61,4 +58,11 @@ checkmake = "0.2.2"              # Makefile linter (was mrtazz/checkmake)
 gcloud = "546.0.0"               # Google Cloud SDK (was twistedpair/google-cloud-sdk)
 docker-cli = "28.3.2"            # Docker CLI (was docker/cli)
 chezmoi = "latest"
+
+[tools."github:openai/codex"]
+version = "latest"
+version_prefix = "rust-v"
+
+[tools."github:openai/codex".platforms]
+macos-arm64 = { asset_pattern = "codex-aarch64-apple-darwin.tar.gz", rename_exe = "codex" }
 
