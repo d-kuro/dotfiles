@@ -35,3 +35,12 @@ unfocused-split-fill = gainsboro
 
 # コマンド終了時にウィンドウを閉じない
 wait-after-command = true
+
+# 画面分割したときにpathが引き継がれる
+window-inherit-working-directory = true
+
+# 起動時に前の作業フォルダを引き継ぐ
+window-save-state = always
+
+# 自動更新チャンネルをtipに設定
+auto-update-channel = tip
