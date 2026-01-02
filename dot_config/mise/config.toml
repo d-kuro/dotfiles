@@ -22,6 +22,7 @@ cargo-binstall = "latest"
 "cargo:intelli-shell" = "latest"
 
 "npm:@google/gemini-cli" = "latest"
+"npm:@openai/codex" = "latest"
 
 # Claude Code
 "npm:ccusage" = "latest"
@@ -59,10 +60,12 @@ gcloud = "546.0.0"               # Google Cloud SDK (was twistedpair/google-clou
 docker-cli = "28.3.2"            # Docker CLI (was docker/cli)
 chezmoi = "latest"
 
-[tools."github:openai/codex"]
+[tools."github:pranshuparmar/witr"]
 version = "latest"
-version_prefix = "rust-v"
 
-[tools."github:openai/codex".platforms]
-macos-arm64 = { asset_pattern = "codex-aarch64-apple-darwin.tar.gz", rename_exe = "codex" }
+[tools."github:pranshuparmar/witr".platforms]
+macos-arm64 = { asset_pattern = "witr-darwin-arm64" }
+macos-x64 = { asset_pattern = "witr-darwin-amd64" }
+linux-x64 = { asset_pattern = "witr-linux-amd64" }
+linux-arm64 = { asset_pattern = "witr-linux-arm64" }
 
